@@ -1,16 +1,4 @@
-# open-my-page
+# Hello FireFox WebExtension
 
-## What it does
 
-This extension includes:
-
-* a background script, "background.js"
-* a browser action
-* a page "my-page.html"
-
-All it does is: when the user clicks the button, open "my-page.html" in a new tab.
-
-## What it shows
-
-* how to listen for browser action clicks in a background script
-* how to open a page packaged with your extension
+This extension shows you how to add a browser action and a background script ,how to listen for clicks on browers actions and open a tab with your custom html page ,using the WebExtension API.For more details check this [tutorial on techiediaries](http://www.techiediaries.com/developing-firefox-extensions-with-webextension/) 
