@@ -1,16 +1,7 @@
-/*
-Open a new tab, and load "my-page.html" into it.
-*/
-function openMyPage() {
-  console.log("injecting");
-   chrome.tabs.create({
-     "url": chrome.extension.getURL("index.html")
-   });
-}
+	function openIndex() {
+	  chrome.tabs.create({
+	     "url": chrome.extension.getURL("index.html")
+	   });
+	}
 
-
-/*
-Add openMyPage() as a listener to clicks on the browser action.
-*/
-chrome.browserAction.onClicked.addListener(openMyPage);
- 
+	chrome.browserAction.onClicked.addListener(openIndex);	
